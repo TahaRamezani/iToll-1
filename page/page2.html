@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    
+    <meta charset="UTF-8">
+    <meta name="description" content="">
+    <title> Task Project </title>
+    <script scr="./js/vuejsmain1.js"></script>
+    <script src="https://unpkg.com/vue@3"></script>
+    <link rel="stylesheet" href=".../css/style.css">
+    <link rel="stylesheet" href="../bootstrap/css/bootstrap.min.css">
+    <script type="text/javascript" src="../bootstrap/js/jquery.min.js"></script>
+    <script type="text/javascript" src="../bootstrap/js/popper.min.js"></script>
+    <script type="text/javascript" src="../bootstrap/js/bootstrap.min.js"></script>
+
+    
+</head>
+<body>
+    
+    
+    
+    
+    <style>
+    
+    
+    
+    
+    nav{
+    
+    font-family: sans-serif;
+    color: cadetblue;
+    width: 100%;
+    position: fixed !important;
+    z-index: 1;
+}
+    
+    
+    
+    
+    
+    </style>
+    
+    
+    
+<nav class="navbar navbar-expand-sm bg-dark ">
+
+  <ul class="navbar-nav">
+      
+     <li class="nav-item">
+         
+         
+         <a><button id="sing-up-butt" type="button" class="btn btn-outline-danger mt-4">Sing Up / Login </button></a> 
+         <button type="button" class="btn btn-outline-info mt-4" onClick="gm()">Your Statuse ...</button>
+     </li>
+      
+      
+   
+  </ul>
+        
+</nav>
+    
+    
+    
+    <br>
+
+    
+    
+<div class="jumbotron">
+    
+               <div class="container text-center mb-5">
+               <h2 class="text-info style-h">Page  Num 2</h2>
+               <div class="row">
+                   <div class="col-md-4">
+                      <div class="row">
+                       <div class="col-md-12">
+                           <span class="badge" style="font-size: 40px; font-family:serif">1</span>
+                       </div>
+                       <p class="text-secondary">
+                           
+                               Easy access for users to articles / Easy access for users to articles / Easy access for users to articles / Easy access for users to articles / Easy access for users to articles 
+                           
+                       </p>
+                   </div>
+                   </div>
+                   <div class="col-md-4">
+                            <div class="row">
+                               <div class="col-md-12">
+                                    <span class="badge" style="font-size: 40px; font-family:serif">2</span>
+                               </div>
+                       <p class="text-secondary" style="font-style: italic">
+                           
+                               Having enough information about each article /  Having enough information about each article 
+                       </p>
+                   </div>
+                   </div>
+                   <div class="col-md-4">
+                         <div class="row">
+                       <div class="col-md-12">
+                            <span class="badge" style="font-size: 40px; font-family:serif">3</span>
+                       </div>
+                       <p class="text-secondary">
+                           
+                            Ability to see the strengths and weaknesses of each article / Ability to see the strengths and weaknesses of each article / Ability to see the strengths and weaknesses of each article / 
+                           
+                       </p>
+                   </div>
+                   </div>
+               </div>
+                </div>
+    
+            </div>
+    
+
+    
+ 
+    
+    
+    <div class="container">
+      <div class="page-header">
+              <h4 class="mb-3 progress1" style="display: inline-block;">اهمیت مقاله</h4>
+              </div>
+           <div class="row">
+               <div class="col-md-4 mb-5">
+                 نویسنده و متن
+                 <div class="progress1">
+                    <div class="progress  mb-3 mt-2" style="height:15px">
+                        <div class="progress-bar bg-warning" style="width:25%;height:15px">
+                       </div>
+                    </div>
+                  </div>
+                 <div class="progress1">
+                  طراحی و داستان 
+                  <div class="progress  mb-3 mt-2" style="height:15px">
+                        <div class="progress-bar bg-info" style="width:80%;height:15px">
+                     </div>
+                    </div>
+                  </div>
+                 <div class="progress1">
+
+                     ادبیات مقاله 
+                      <div class="progress mb-3 mt-2" style="height:15">
+                            <div class="progress-bar bg-dark" style="width:50%;height:15px">
+                         </div>
+
+                     </div>
+                  </div>
+                  <div class="progress1">
+                   میزان انتقال فهم و درک
+                  <div class="progress mb-3 mt-2" style="height:15px">
+                        <div class="progress-bar bg-danger" style="width:75%;height:15px">
+                     </div>
+                  </div>
+                  </div>
+               </div>
+               <div class="col-md-4">
+                 <div id="accordion">
+                            <div class="card">
+                              <div class="card-header">
+                                <a class="card-link" data-toggle="collapse" href="#collapseOne">
+                                  Download Document ...
+                                </a>
+                              </div>
+                              <div id="collapseOne" class="collapse show" data-parent="#accordion">
+                                <div class="card-body">
+                                <a href="../image/d2.jfif"><button>Download</button></a>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="card">
+                              <div class="card-header">
+                                <a class="collapsed card-link" data-toggle="collapse" href="#collapseTwo">
+                                About Article
+                              </a>
+                              </div>
+                              <div id="collapseTwo" class="collapse" data-parent="#accordion">
+                                <div class="card-body">
+                                    This is About Frontend In Programming Article ...
+                                </div>
+                              </div>
+                            </div>
+                            <div class="card">
+                              <div class="card-header">
+                                <a class="collapsed card-link" data-toggle="collapse" href="#collapseThree">
+                                  Rate This Article
+                                </a>
+                              </div>
+                              <div id="collapseThree" class="collapse" data-parent="#accordion">
+                                <div class="card-body">
+                                 <input type="range">
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                </div>
+               <div class="col-md-4">
+                   <h6>Information about programming</h6>
+                       <p>
+                   Computer programming is the process of designing and building an executable computer program to accomplish a specific computing result or to perform a specific task. Programming involves tasks such as: analysis, generating algorithms, profiling algorithms' accuracy and resource consumption, and the implementation of algorithms in a chosen programming language (commonly referred to as coding)
+                       </p>
+               </div>
+           </div>
+       </div>
+    
+    
+
+<div style="background-color:#1E1E1E">
+        
+        
+    
+    <marquee style="margin-top: 20px; margin-bottom: 20px; font-size: 20px ; font-family:serif ; color:aliceblue;" direction="right" behavior="alternate" class="shadows">
+    
+        ( Taha Ramezani )    
+    
+    </marquee>
+    
+    </div>
+    
+    
+    
+    <script>
+        
+            function gm(){
+			alert('Your Acc is Login ...');
+		}
+	
+
+	</script>
+    
+    
+</body>
+</html> 

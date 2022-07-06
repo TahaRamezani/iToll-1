@@ -1,0 +1,112 @@
+nav{
+    
+    font-family: sans-serif;
+    color: cadetblue;
+    width: 100%;
+    position: fixed !important;
+    z-index: 1;
+}
+
+
+.sing-up-butt{
+    
+    position: fixed !important;
+    
+    
+    
+}
+
+
+
+a{
+    color: rgb(200,150,80) !important;
+}
+
+
+
+
+
+.text{
+    margin-top: 40px;
+    text-align: center;
+}
+
+
+
+
+.style-h{
+    display: inline-block;
+    padding-bottom: 5px;
+    border-bottom: 3px solid rgba(20,140,0,0.5);
+    margin-bottom: 35px;
+}
+
+
+
+
+
+.second-card{
+    background-color: #1E1E1E;
+    padding-top: 15px;
+}
+
+
+.qqq{
+    display: inline-block;
+}
+
+
+.fc{
+    width: 45px;
+}
+
+
+
+.www{
+    margin-top: 70px;
+}
+
+
+
+.center{
+    text-align: center;
+}
+
+
+
+
+#a1{
+    filter: brightness(70%);
+    transition: filter 1s ease 0s;
+}
+
+#a1:hover{
+    filter: brightness(100%);
+}
+
+
+
+
+
+#a2{
+    filter: blur(3px);
+    transition: filter 2s linear 0s;
+}
+
+#a2:hover{
+    filter: blur(0px);
+}
+
+
+
+
+
+
+#a3{
+    filter: grayscale(100%);
+    transition: filter 1s ease-out 0s;
+}
+
+#a3:hover{
+    filter: grayscale(0%);
+}
